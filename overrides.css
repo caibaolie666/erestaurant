@@ -1,0 +1,11 @@
+/* 收尾标题使用红橙色火焰渐变，强化品牌的热烈感。 */
+.join h2 {
+  color: #f04425;
+}
+
+.join h2 span {
+  background: linear-gradient(90deg, #e63020 0%, #ff6a2b 52%, #f5a623 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
